@@ -1,4 +1,4 @@
-#The above files contain R studio script files to find step counts and wear times from Fitabase (Fitbit) data. 
+#The above files contain R script files to find step counts and wear times from Fitabase (Fitbit) data. 
 The "stepcount" script extracts data from JSON files (file type directly pulled from Fitabase), combines data for each participant, and determines step count daily and weekly totals for each participant. The input is the pathway/participant json files, and the resultant data is written to new csv files. 
 The "weartime" script extracts data from converted excel files (Fitbase format), combines data for each participant, and determines weartime durations (amount of time the participant wore the Fitbit device). Additionally, the script labels valid days as 1, if the participant wears the Fitbit for 10 hours or more, else 0.
   The input is the pathway/participant excel files, and the output is a new csv file with logged hours and valid day labels. 
